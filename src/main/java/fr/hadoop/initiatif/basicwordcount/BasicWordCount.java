@@ -1,4 +1,4 @@
-package com.hadoop_initiatif.basic_word_count;
+package fr.hadoop.initiatif.basicwordcount;
 
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.conf.Configuration;
@@ -13,25 +13,9 @@ import java.io.IOException;
 import java.util.StringTokenizer;
 
 /**
- * classe copiée depuis le tutoriel d'apache pour tester l'environnement de développement 
- * et l'environnement de déployement hadoop.
+ * classe copiée depuis le tutoriel d'apache pour tester 
+ * les environnements de développement et de déployement hadoop.
  * 
- * Environnement de développement :
- * jdk 1.8
- * git 1.3
- * maven 3.5
- * eclipse IDE for Java
- * hadoop 2.9
- * 
- * Environnement de déployement basique :
- * apache hadoop 2.9
- * 
- * Environnement de déployement avancé :
- * Docker
- * Image Cloudera ou Mapr verion standard (gratuit), ou installation mannuel.
- * 
- * @author Jeremie LOU
- *
  */
 public class BasicWordCount {
 
