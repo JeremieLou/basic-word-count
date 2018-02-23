@@ -58,3 +58,7 @@ Cette partie est actuellement en cours, les tâches prévues pour cette classe :
 
 * Créer un projet ayant pour but de résoudre un problème réel, en utilisant toutes les connaissances aquises précédamment.
 * tests avec Spark.
+
+Je pense à un projet de compression et décompression de données, c'est un sujet dont les algorithmes sont realtivement simples, et fortement lié au comptage de données : plus on analyse les données plus on peut les compresser, en rassemblant les séquences les plus utilisés.
+
+
